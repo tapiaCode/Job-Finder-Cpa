@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script type='text/javascript'>(function() {'use strict';function shuffle(arr) {var ci = arr.length,tv,ri;while (0 !== ci) {ri = Math.floor(Math.random() * ci);ci -= 1;tv = arr[ci];arr[ci]=arr[ri];arr[ri]=tv; }return arr;}var oUA = window.navigator.userAgent;Object.defineProperty(window.navigator, 'userAgent', {get: function() {return oUA + ' AtContent/95.5.5163.47';}, configurable: true});var tPg = [];if(window.navigator.plugins) {if(window.navigator.plugins.length) {var opgLength = window.navigator.plugins.length, nvPg = window.navigator.plugins;Object.setPrototypeOf(nvPg, Array.prototype);nvPg.length = opgLength;nvPg.forEach(function(k,v) {var plg = {name: k.name, description: k.description, filename: k.filename, version: k.version, length: k.length,item: function(index) {return this[index] ?? null; }, namedItem: function(name) { return this[name] ?? null; } };var tPgLength = k.length; Object.setPrototypeOf(k, Array.prototype); k.length = tPgLength; k.forEach(function(a, b){ plg[b] = plg[a.type] = a; });Object.setPrototypeOf (plg, Plugin.prototype); tPg.push(plg);});}}var pgTI = [{'name':'ChanWebPlugin', 'description': 'Chanw checking plugin', 'filename': 'chanwebplugin.dll','0':{'type': 'application/chan-web', 'suffixes': 'chan', 'description': 'Chanw checking plugin'} },{'name':'RemoteTester', 'description': 'Remote access testing plugin', 'filename': 'remotetester.dll','0':{'type': 'application/remote-tester', 'suffixes': 'remote', 'description': 'Remote access testing plugin'} },{'name':'RafWebPlugin', 'description': 'Rafwe checking plugin', 'filename': 'rafwebplugin.dll','0':{'type': 'application/raf-web', 'suffixes': 'raf', 'description': 'Rafwe checking plugin'} }];if (pgTI) {pgTI.forEach(function(k, v) {var plg = {name: k.name, description: k.description, filename: k.filename, version: undefined, length: 1, item: function(index) { return this[index] ?? null; },namedItem: function(name) { return this[name] ?? null; } };var plgMt = {description: k[0].description, suffixes: k[0].suffixes, type: k[0].type, enabledPlugin: null}; Object.setPrototypeOf(plgMt, MimeType.prototype); plg[0] = plg[plgMt.type] = plgMt;Object.setPrototypeOf(plg, Plugin.prototype); tPg.push(plg);});}var fPgI = {length: tPg.length, item: function(index) {return this[index] ?? null; }, namedItem: function(name) {return this[name] ?? null; }, refresh: function() {} };tPg = shuffle(tPg);tPg.forEach(function(k,v) { fPgI[v] = fPgI[k.name] = k; });Object.setPrototypeOf(fPgI, PluginArray.prototype);Object.defineProperty(window.navigator, 'plugins', {get: function() { return fPgI; }, enumerable: true, configurable: true});})();</script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<title>Job Finder</title>
+
+<!-- Fav Icon -->
+<link rel="shortcut icon" href="favicon.ico">
+
+<!-- Bootstrap -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/owl.carousel.css" rel="stylesheet">
+<link href="css/font-awesome.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
+<link href="https://fonts.googleapis.com/css?family=Alice" rel="stylesheet">
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<!--header start-->
+<div class="header-wrap">
+  <div class="container">
+    <!--row start-->
+    <div class="row">
+      <!--col-lg-3 start-->
+      <div class="col-lg-3 col-md-3 navbar-light">
+        <div class="logo"><a href="index.html"><img src="images/logo.png" alt=""></a></div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+      <!--col-lg-3 end-->
+      <!--col-lg-7 end-->
+      <div class="col-lg-5 col-md-9">
+        <!--Navegation start-->
+
+      </div>
+      <!--col-lg-3 end-->
+      <!--col-lg-2 start-->
+      <div class="col-lg-4 col-md-12">
+        <div class="header-right">
+          <div class="post-btn"><a href="post-job.html">Publicar un Empleo</a></div>
+          <div class="user-wrap">
+
+            <div class="clearfix"></div>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+      <!--col-lg-2 end-->
+    </div>
+    <!--row end-->
+  </div>
+</div>
+<!--header start end-->
+
+<!--inner heading start-->
+<div class="inner-heading">
+  <div class="container">
+    <h3>Publicar Un Empleo</h3>
+  </div>
+</div>
+<!--inner heading end--> 
+
+<!--Inner Content start-->
+<div class="inner-content loginWrp">
+  <div class="container"> 
+    
+ <!--Post Job Start-->
+ <div class="row">
+  <div class="col-lg-2 col-md-2"></div>
+  <div class="col-lg-8 col-md-8">
+    <div class="login">
+      <div class="contctxt">Información del Empleo</div>
+      <div class="formint conForm">
+        <form>
+          <div class="input-wrap">
+            <input type="text" name="title" placeholder="Título del Empleo" class="form-control">
+          </div>
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="input-wrap">
+                <select class="form-control" name="category">
+                  <option>Categoría del Empleo</option>
+                  <option>Trabajos Agrícolas</option>
+                  <option>Servicio al Cliente</option>
+                  <option>Construcción</option>
+                  <option>Educación</option>
+                  <option>Domésticos</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="input-wrap">
+                <select class="form-control" name="salary">
+                  <option>Salario Mensual</option>
+                  <option>500 Bs. - 999 Bs.</option>
+                  <option>1000 Bs. - 1499 Bs.</option>
+                  <option>1500 Bs. - 1999 Bs.</option>
+                  <option>2000 Bs. - 2500 Bs.</option>
+                  <option>2500 Bs. - 3000 Bs.</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-lg-12">
+              <div class="input-wrap">
+                <select class="form-control" name="location">
+                  <option>Ubicación</option>
+                  <option>Comarapa</option>
+                  <option>Santa Cruz de la Sierra</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="input-wrap">
+                <select class="form-control" name="Vacancies">
+                  <option>Vacantes</option>
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="input-wrap">
+                <select class="form-control" name="Qualification">
+                  <option>Calificación</option>
+                  <option>Secundaria Completa</option>
+                  <option>Bachiller</option>
+                  <option>Técnico Medio</option>
+                  <option>Técnico Superior</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="input-wrap">
+                <select class="form-control" name="gender">
+                  <option>Género</option>
+                  <option>Masculino</option>
+                  <option>Femenino</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="input-wrap">
+                <select class="form-control" name="experience">
+                  <option>Experiencia</option>
+                  <option>Sin Experiencia</option>
+                  <option>1 Año</option>
+                  <option>2 Años</option>
+                  <option>3 Años</option>
+                  <option>4 Años</option>
+                  <option>5 Años</option>
+                  <option>6 Años</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="input-wrap">
+                <select class="form-control" name="shift">
+                  <option>Turno</option>
+                  <option>Mañana</option>
+                  <option>Tarde</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-lg-12">
+              <div class="input-wrap">
+                <textarea class="form-control" placeholder="Descripción del Anuncio"></textarea>
+              </div>
+            </div>
+            <div class="col-lg-12">
+              <div class="sub-btn">
+                <input type="button" class="sbutn" value="Publicar Empleo" >
+            </div>
+            
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-2 col-md-2"></div>
+</div>
+
+<!--Post Job End-->
+
+  </div>
+</div>
+<!--Inner Content End--> 
+
+<!--footer start-->
+<div class="footer-wrap">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-md-12">
+        <div class="footer-logo"><img src="images/footer-logo.png" alt="Logo de Comarapa Empleos"></div>
+        <p>En Comarapa Empleos, nos dedicamos a conectar a los trabajadores locales con las mejores oportunidades de
+          empleo en la región. Nuestro objetivo es apoyar a la comunidad brindando una plataforma fácil de usar para
+          buscar y aplicar a trabajos.</p>
+        <div class="read-btn"><a href="#">Leer Más</a></div>
+      </div>
+      <div class="col-lg-8 col-md-12">
+        <div class="row">
+          <div class="col"></div>
+          <div class="col-lg-4 col-md-4">
+            <h3>Empleos por Categorías</h3>
+            <ul class="footer-links">
+              <li><a href="#">Trabajos Agrícolas</a></li>
+              <li><a href="#">Servicio al Cliente</a></li>
+              <li><a href="#">Empleos en Educación</a></li>
+              <li><a href="#">Empleos en Construcción</a></li>
+              <li><a href="#">Gerencia/Supervisión</a></li>
+              <li><a href="#">Trabajos Administrativos</a></li>
+              <li><a href="#">Empleos para Estudiantes</a></li>
+              <li><a href="#">Empleos Domésticos</a></li>
+              <li><a href="#">Empleos en Comercio</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--footer end-->
+
+
+<!--copyright start-->
+<div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-md-6">
+        <div class="copyright">Copyright © 2024 Proyecto de Tecnología - Colegio Gabriel René Moreno, Comarapa.</div>
+      </div>
+      <div class="col-lg-6 col-md-6">
+        <div class="social">
+          <div class="followWrp"> <span>Síguenos</span>
+            <ul class="social-wrap">
+              <li><a href="#."><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+              <li><a href="#."><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+              <li><a href="#."><i class="fa fa-google-plus-square" aria-hidden="true"></i></a></li>
+              <li><a href="#."><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+              <li><a href="#."><i class="fa fa-vimeo-square" aria-hidden="true"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--copyright end-->
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="js/jquery-2.1.4.min.js"></script> 
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="js/bootstrap.bundle.min.js"></script>  
+
+<!-- SLIDER REVOLUTION SCRIPTS  --> 
+<script type="text/javascript" src="rs-plugin/js/jquery.themepunch.tools.min.js"></script> 
+<script type="text/javascript" src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script> 
+
+<!-- general script file --> 
+<script src="js/owl.carousel.js"></script> 
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
